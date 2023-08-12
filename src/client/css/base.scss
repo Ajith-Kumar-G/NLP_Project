@@ -5,13 +5,14 @@
 }
 
 body{
-    background: #0a1f44;
+    background: #23a045;;
 }
 main{
-    font: 1rem "Roboto" sans-serif;
+    font-size: 1rem;
     color: #000;
     padding: 3rem;
     display: grid;    
     grid-template-rows: 300px auto ;
     justify-content:center;  
+    font-family: system-ui;
 }

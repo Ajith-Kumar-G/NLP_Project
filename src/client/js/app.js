@@ -6,9 +6,9 @@ let newDate = d.getMonth() + 1 + '/' + d.getDate() + '/' + d.getFullYear();
 // Function called by event listener
 export function handleSubmit(e){
     const url=document.getElementById('url').value;
-   
+    alert(url)
     e.preventDefault();
-    if(Client.checkUrl(url))
+    if(Client.validateURL(url))
     fetch("http://localhost:8000/add", {
       method: "POST",
       cache: "no-cache",
